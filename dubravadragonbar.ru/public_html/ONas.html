@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon | Дракон. О нас</title>
+    
+	
+    <link rel="stylesheet" href="StyleONas.css">
+    <link rel="stylesheet" href="StyleHeaderFooter.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/лого.png">
+</head>
+<body>
+	<header>
+		<div class="icon">
+		<a id="PageGlavnay" href="Glavnay.html">
+          <img class="logo" src="img/лого.png" alt="логотип">
+        </a>
+		</div>
+		<div class="choice">
+			<a id="PageMenu" href="Menu.html">Меню</a>
+			<a id="PageBronirovanie" href="Bronirovanie.html">Бронирование</a>
+			<a id="PageShow" href="Show.html">Шоу</a>
+			<a id="PageONas" href="ONas.html">О нас</a>
+			<a id="PageAvtorizacia" href="Avtorizacia.html">
+			    <img class="avtorisation" src="img/авторизация.png" alt="авторизация">
+			</a>
+		</div>
+	</header>
+
+	
+
+
+
+
+	<main>
+		<div class="text-container">
+    			<p id="Name">Контакты</p>
+    			<p id="Name1">Адрес:</p>
+    			<p id="Name2">Дзержинск, Пушкинская ул., 4</p>
+    			<p id="Name1">Режим работы:</p>
+    			<p id="Name2">Пн-Чт, Вс: 16:00-02:00</p>
+    			<p id="Name2">Пт-Сб: 16:00-04:00</p>
+    			<div class="ssylki">
+    			    <a href="https://vk.com/dragonbaaar"> <img src="img/вк.png" alt="ссылка вк"> </a>
+    			    
+    			</div>
+    			<div class="rectangle"> <p>+7 (950) 350-73-18</p> </div>
+    			
+    	</div>
+    	
+    	
+    	<div class="map-container">
+    <div id="map"></div>
+</div>
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script>
+ymaps.ready(init);
+
+function init() {
+    var myMap = new ymaps.Map("map", {
+        center: [56.222015, 43.404897],
+        zoom: 16,
+        controls: ['zoomControl', 'fullscreenControl']
+    }, {
+        suppressMapOpenBlock: true
+    });
+
+    var myPlacemark = new ymaps.Placemark(
+        [56.221911, 43.406260],
+        { balloonContent: 'Dragon Bar' }
+    );
+
+    myMap.geoObjects.add(myPlacemark);
+
+    function resizeMap() {
+        if (myMap) {
+            requestAnimationFrame(() => myMap.container.fitToViewport());
+        }
+    }
+
+    // Пересчёт размеров на все события
+    window.addEventListener('resize', resizeMap);
+    window.addEventListener('orientationchange', resizeMap);
+    window.addEventListener('load', resizeMap);
+
+    // Гарантированная подстройка после рендеринга страницы
+    setTimeout(resizeMap, 500);
+}
+
+</script>
+
+
+      
+  <p id="Name3">Юридический адрес: 606033, Нижегородская Область, г. Дзержинск, ул. Пушкинская, д.4 ИНН: 5249082025 ОГРН 1065249062229</p>
+	</main>
+    
+	
+	<footer>
+		<p id="footer">Заведение "Dragon" | Заведение "Дракон" в Дзержинске, 2024</p>
+	</footer>
+	
+	
+   
+
+
+
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ScriptPages.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dragon | Дракон. Меню</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	
+    <link rel="stylesheet" href="StyleMenu.css">
+    <link rel="stylesheet" href="StyleHeaderFooter.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/лого.png">
+</head>
+<body>
+	<header>
+		<div class="icon">
+		<a id="PageGlavnay" href="Glavnay.html">
+          <img class="logo" src="img/лого.png" alt="логотип">
+        </a>
+		</div>
+		<div class="choice">
+			<a id="PageMenu" href="Menu.html">Меню</a>
+			<a id="PageBronirovanie" href="Bronirovanie.html">Бронирование</a>
+			<a id="PageShow" href="Show.html">Шоу</a>
+			<a id="PageONas" href="ONas.html">О нас</a>
+			<a id="PageAvtorizacia" href="Avtorizacia.html">
+			    <img class="avtorisation" src="img/авторизация.png" alt="авторизация">
+			</a>
+		</div>
+	</header>
+
+	
+
+
+
+
+	<main>
+		<img class="menu" src="menu/меню.jpg" alt="меню">
+		<div class = "kitchen">
+		    <p> Кухня </p>
+		    <div class="carousel">
+		        <div class="carousel-images">
+		            <img class="photo" src="menu/закускиСалатыТосты.jpg" alt="закускиСалатыТосты">
+		            <img class="photo" src="menu/бургерыГорячееСковородки.jpg" alt="бургерыГорячееСковородки">
+		            <img class="photo" src="menu/ТортильиПиццыДесерты.jpg" alt="ТортильиПиццыДесерты">
+		        </div>
+		   	    <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+           </div>
+         </div>
+		 <div class = "bar">
+		    <p> Бар </p>
+		    <img class="photo1" src="menu/Безалгокольные.jpg" alt="напитки">
+		 </div>
+	</main>
+
+	
+	<footer>
+		<p id="footer">Заведение "Dragon" | Заведение "Дракон" в Дзержинске, 2024</p>
+	</footer>
+   
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ScriptPages.js"></script>
+    <script src="ScriptMenu.js"></script>
+</body>
+</html>

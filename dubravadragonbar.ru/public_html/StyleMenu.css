@@ -1,0 +1,141 @@
+
+main {
+    background-color: #FFF0DF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0; 
+}
+
+
+@media (min-width: 1301px) {
+    main {
+        min-height: 2050px;
+    }
+}
+
+
+.menu {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    margin: 0 auto 30px auto;
+}
+
+.kitchen, .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 18px 0;
+}
+
+.kitchen p, .bar p {
+    font-family: 'Unbounded';
+    font-size: 64px;
+    margin: 0 0 18px 0;
+}
+
+
+.bar-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 15px;
+    margin: 18px 0;
+}
+
+.photo1 {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    object-fit: contain;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 530px;
+    height: auto;
+    margin: 18px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    flex-shrink: 0;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+    font-size: 18px;
+}
+
+.prev {
+    left: 15px;
+}
+
+.next {
+    right: 15px;
+}
+
+
+@media (max-width: 1300px) {
+    .kitchen p, .bar p { font-size: 56px; }
+    .carousel { max-width: 480px; }
+    .photo1 { max-width: 650px; }
+}
+
+@media (max-width: 1100px) {
+    .kitchen p, .bar p { font-size: 50px; }
+    .carousel { max-width: 420px; }
+    .photo1 { max-width: 600px; }
+}
+
+@media (max-width: 992px) {
+    .kitchen p, .bar p { font-size: 44px; }
+    .carousel { max-width: 380px; }
+    .photo1 { max-width: 550px; }
+}
+
+@media (max-width: 768px) {
+    main { padding: 0 10px; }
+    .kitchen p, .bar p { font-size: 36px; }
+    .carousel { max-width: 320px; }
+    .photo1 { max-width: 500px; }
+    .carousel-button { padding: 8px; font-size: 16px; }
+}
+
+@media (max-width: 576px) {
+    .kitchen p, .bar p { font-size: 30px; }
+    .carousel { max-width: 280px; }
+    .photo1 { max-width: 400px; }
+}
+
+@media (max-width: 375px) {
+    .kitchen p, .bar p { font-size: 26px; }
+    .carousel { max-width: 240px; }
+    .photo1 { max-width: 320px; }
+    header .choice a { font-size: 14px; padding: 0 5px; }
+    .carousel-button { padding: 6px; font-size: 14px; }
+}

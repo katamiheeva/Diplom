@@ -1,0 +1,362 @@
+main {
+	background-color: #FFF0DF;
+	min-height: 86vh;
+	width: 100%; 
+    	 
+	
+}
+
+.text-container {
+	margin-left: 56px;
+	padding-top: 30px;
+}
+
+#Name {
+	font-family:'Unbounded';
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 0.8; 
+}
+
+
+#Name1 {
+	font-family:'Unbounded';
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.photo-container {
+	margin-left: 56px;
+	margin-right: 56px;
+	margin-top:87px;
+	display: flex;
+	justify-content: space-between; 
+	gap:20px;
+	flex-wrap: wrap;
+	
+}
+
+.Knigi, .SvoyaIgra, .Karaoke, .Music, .Standup {
+  
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; 
+}
+
+
+.Knigi p, .SvoyaIgra p, .Karaoke p, .Music p, .Standup p {
+  text-align: center;
+  margin-top: 5px;
+	font-family:'Inter';
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.SvoyaIgra a {
+	text-align: center;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  color: inherit; 
+  display: inline-block; 
+  transition: color 0.3s ease; 
+}
+
+.SvoyaIgra a:hover {
+  text-decoration: underline; 
+  color: #613709; 
+}
+
+.photo{
+    width: 205px;
+    height: 205px;
+}
+
+#Name2 {
+	display: flex; 
+    align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	font-family:'Inter';
+	font-size: 20px;
+	font-weight: 600;
+}
+
+a {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  color: #FD8F14; 
+  display: inline-block; 
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #613709; 
+}
+
+main {
+	background-color: #FFF0DF;
+	height: 623px;
+	width: 100%; 
+    	 
+	
+}
+
+.text-container {
+	margin-left: 56px;
+	padding-top: 30px;
+}
+
+#Name {
+	font-family:'Unbounded';
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 0.8; 
+}
+
+
+#Name1 {
+	font-family:'Unbounded';
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.photo-container {
+	margin-left: 56px;
+	margin-right: 56px;
+	margin-top:87px;
+	display: flex;
+	justify-content: space-between; 
+	gap:20px;
+	flex-wrap: wrap;
+	
+}
+
+.Knigi, .SvoyaIgra, .Karaoke, .Music, .Standup {
+  
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; 
+}
+
+
+.Knigi p, .SvoyaIgra p, .Karaoke p, .Music p, .Standup p {
+  text-align: center;
+  margin-top: 5px;
+	font-family:'Inter';
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.SvoyaIgra a {
+	text-align: center;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  color: inherit; 
+  display: inline-block; 
+  transition: color 0.3s ease; 
+}
+
+.SvoyaIgra a:hover {
+  text-decoration: underline; 
+  color: #613709; 
+}
+
+.photo{
+    width: 205px;
+    height: 205px;
+}
+
+#Name2 {
+	display: flex; 
+    align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	font-family:'Inter';
+	font-size: 20px;
+	font-weight: 600;
+}
+
+a {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  color: #FD8F14; 
+  display: inline-block; 
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #613709; 
+}
+
+
+@media (max-width: 1300px) {
+
+  .photo-container {
+    margin-left: 48px;
+    margin-right: 48px;
+    gap: 18px;
+  }
+
+  .photo {
+    width: 185px;
+    height: 185px;
+  }
+
+  #Name {
+    font-size: 58px;
+  }
+
+  #Name1 {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+
+  .photo-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 14px;
+    margin-top: 70px;
+  }
+
+  .photo {
+    width: 165px;
+    height: 165px;
+  }
+
+  #Name {
+    font-size: 50px;
+  }
+
+  #Name1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .photo-container {
+    margin-left: 32px;
+    margin-right: 32px;
+    gap: 10px;
+    margin-top: 60px;
+  }
+
+  .photo {
+    width: 145px;
+    height: 145px;
+  }
+
+  #Name {
+    font-size: 42px;
+  }
+
+  #Name1 {
+    font-size: 18px;
+  }
+
+  .Knigi p,
+  .SvoyaIgra p,
+  .Karaoke p,
+  .Music p,
+  .Standup p {
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  main {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .text-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #Name {
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  #Name1 {
+    font-size: 16px;
+  }
+
+  .photo-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+
+  .photo {
+    width: 220px;
+    height: 220px;
+  }
+
+  #Name2 {
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  #Name {
+    font-size: 28px;
+  }
+
+  #Name1 {
+    font-size: 14px;
+  }
+
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .SvoyaIgra a,
+  a {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 375px) {
+
+  #Name {
+    font-size: 24px;
+  }
+
+  #Name1 {
+    font-size: 13px;
+  }
+
+  .photo {
+    width: 170px;
+    height: 170px;
+  }
+
+    #Name2 {
+    font-size: 13px;
+	white-space: nowrap;
+  }
+	#Name2  a{
+    font-size: 13px;
+	
+  }
+}

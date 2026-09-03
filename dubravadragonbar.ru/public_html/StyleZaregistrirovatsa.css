@@ -1,0 +1,158 @@
+main  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-color: #FFF0DF;
+	height: 86vh;
+	width: 100%; 
+}
+
+#Name {
+	font-family:'Unbounded';
+	font-weight: 600;
+	font-size: 64px;
+	margin-top: 57px;
+
+}
+
+
+#Imay{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 654px;
+	height: 36px;
+	margin-bottom: 49px;
+	border-color:#FFF0DF ;
+	margin-top: 41px;
+}
+
+#Login{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 654px;
+	height: 36px;
+	margin-bottom: 49px;
+	border-color:#FFF0DF ;
+}
+
+#Parol{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 654px;
+	height: 36px;
+	margin-bottom: 49px;
+	border-color:#FFF0DF ;
+}
+
+#ParolDub{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 654px;
+	height: 36px;
+	margin-bottom: 49px;
+	border-color:#FFF0DF ;
+}
+
+
+
+.Zaregatsa{
+    font-family: 'Unbounded';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+	width: 315px;
+	height: 47px;
+	background-color: #FD8F14;
+	margin-bottom: 70px;
+}
+
+@media (max-width: 1100px) {
+    #Name {
+        font-size: 54px;
+        margin-top: 45px;
+    }
+	
+    #Imay, #Login, #Parol, #ParolDub {
+        width: 520px;
+		margin-bottom: 40px;
+    }
+    .Zaregatsa {
+        width: 260px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        padding: 20px 0;
+    }
+    #Name {
+        font-size: 48px;
+        margin-top: 3px;
+    }
+    #Imay, #Login, #Parol, #ParolDub {
+        width: 460px;
+		margin-bottom: 35px;
+    }
+    .Zaregatsa {
+        width: 240px;
+        height: 38px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Name {
+        font-size: 42px;
+        
+    }
+   #Imay, #Login, #Parol, #ParolDub {
+        width: 380px;
+		margin-bottom: 30px;
+    }
+    .Zaregatsa {
+        width: 380px;
+        height: 36px;
+        font-size: 12px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #Name {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    #Imay, #Login, #Parol, #ParolDub {
+        width: 320px;
+		margin-bottom: 26px;
+    }
+    .Zaregatsa {
+        width: 320px;
+        height: 34px;
+        font-size: 11px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    #Name {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    #Imay, #Login, #Parol, #ParolDub {
+        width: 280px;
+		margin-bottom: 20px;
+    }
+    .Zaregatsa {
+         width: 280px;
+        height: 32px;
+        font-size: 10px;
+        margin-right: 8px;
+    }
+}

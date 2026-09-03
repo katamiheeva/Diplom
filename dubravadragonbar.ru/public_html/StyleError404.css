@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    background-color: #FFF0DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    text-align: center; 
+    
+}
+
+#Name {
+    font-family: 'Unnounded';
+  	font-size: 112px;
+  	color: #FD8F14;
+    display: flex; 
+  	justify-content: center;
+	align-items: center;
+    margin: 0 0 10px 0; 
+  line-height: 1.1; 
+}
+
+.container p {
+    font-family: 'Unbounded';
+    font-size: 64px;
+    color: black;
+    margin: 0 0 8px 0; 
+    line-height: 1.1; 
+}
+
+.container a {
+    font-family: 'Unbounded';
+    font-size: 64px;
+    color: #FD8F14;
+    line-height: 1.1;
+}
+

@@ -1,0 +1,873 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #FFF0DF;
+     min-height: 623px;
+    height: auto;
+    width: 100%;
+    display: flex;
+   align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Bron {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    margin-left: 56px;
+	margin-top: 38px;
+}
+
+.zapis{
+    height: 485px;
+    width: 100%;
+	max-width: 654px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FD8F14;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     margin-top: 56px;
+
+   
+}
+
+#Name{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Unbounded';
+    font-size: 32px;
+    font-weight: 600;
+	
+
+}
+
+#ClientsName{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 205px;
+	height: 44px;
+	margin-left: 108px;
+	margin-right: 20px;
+	margin-bottom: 24px;
+}
+
+#PhoneNumber{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 205px;
+	height: 44px;
+	margin-bottom: 24px;
+}
+
+#StolNumber{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 205px;
+	height: 44px;
+	margin-left: 108px;
+	margin-right: 20px;
+	margin-bottom: 24px;
+}
+
+#Date{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 205px;
+	height: 44px;
+	margin-bottom: 24px;
+}
+
+#Date::placeholder {
+  color: #999;
+   opacity: 1;
+}
+
+#TimeNach{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 205px;
+	height: 44px;
+	margin-left: 108px;
+	margin-right: 20px;
+	margin-bottom: 24px;
+}
+
+#TimeCon{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+	width: 205px;
+	height: 44px;
+	margin-bottom: 24px;
+}
+
+#Commentariy{
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    width: 433px;
+	height: 77px;
+	margin-left: 108px;
+	margin-bottom: 24px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #999; 
+  font-family: 'Inter'; 
+  font-size: 16px; 
+   font-weight: 300;
+  
+}
+
+
+.ZabronirovatStol{
+    font-family: 'Unbounded';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+	width: 433px;
+	height: 55px;
+	margin-left: 108px;
+	background-color: #FD8F14;
+}
+
+
+#Name1 {
+    font-family: 'Unbounded';
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+#Name4 {
+    font-family: 'Unbounded';
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+#Name2 {
+    font-family: 'Unbounded';
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+	flex-direction: column;
+	line-height: 0.5;
+}
+
+#Name3 {
+    font-family: 'Unbounded';
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+	line-height: 0.5;
+    
+   
+}
+    
+.checkbox-container {
+  margin-top: 20px; 
+  display: flex;
+  align-items: flex-start; 
+}
+
+.consent-label {
+  font-family: 'Inter'; 
+  font-size: 13px; 
+  font-weight: 300; 
+  line-height: 0.8; 
+  margin-left: 8px; 
+}
+
+#check {
+  margin-top: 2px; 
+  margin-left:56px;
+}
+
+
+.Stol {
+    flex: 1 1 45%;
+    display: flex; 
+	flex-direction: column;
+	 align-items: center; 
+	margin-top: 30px;
+     gap: 10px;
+}
+
+
+.status-date {
+    order: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Inter';
+    font-size: 18px;
+    width: fit-content;
+    position: relative;   
+    z-index: 10;          
+}
+
+.hall {
+    flex: 1 1 auto;
+	margin-top: 0;
+}
+
+.main-hall {
+  width: 542px; 
+	margin-right: 20px;
+	margin-left: 20px; 
+}
+
+.small-hall {
+  width: 92px;
+	margin-right: 56px;
+	margin-bottom: 10px;
+}
+
+.osnov {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(6, 1fr); 
+  gap: 10px; 
+  width: 542px;
+  height: 485px;
+  border: 5px solid #FD8F14;
+  box-sizing: border-box;
+
+}
+
+
+
+.bar {
+	 border-style: solid;
+    border-width: 1px;
+	width: 164px;
+	height: 104px;
+	background-color:#DCDCDC;
+	 text-align: center; 
+  display: flex;      
+  justify-content: center; 
+  align-items: center;
+  grid-column: 5 / span 2; 
+  grid-row: 1 / span 2; 
+  align-self: start; 
+}
+
+.scene {
+	border-style: solid;
+    border-width: 1px;
+	width: 367px;
+	height: 109px;
+	background-color:#DCDCDC;
+	 text-align: center; 
+  display: flex;      
+  justify-content: center; 
+  align-items: center;
+  grid-column: 1 / span 5; 
+  grid-row: 6 / span 1; 
+  align-self: end; 
+}
+
+.oval#table9 {
+  grid-column: 1 / span 3; 
+  grid-row: 3 / span 1;
+}
+
+
+.krug#table10 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+
+.krug#table8 {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+
+.krug#table7 {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.krug#table6 {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.krug#table5 {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.krug#table4 {
+  grid-column: 5 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.krug#table3 {
+  grid-column: 6 / span 1;
+  grid-row: 4 / span 1;
+}
+
+
+.krug{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 33%;
+	width: 50px;
+	height: 50px;
+	background-color:#DCDCDC;
+	 text-align: center; 
+  display: flex;      
+  justify-content: center; 
+  align-items: center;
+}
+.oval{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+	width: 165px;
+	height: 50px;
+	background-color:#DCDCDC;
+	 text-align: center; 
+  display: flex;      
+  justify-content: center; 
+  align-items: center;
+}
+
+.krug, .oval {
+  align-self: center; 
+  justify-self: center; 
+}
+    
+
+
+.mal {
+    flex: 1; 
+    width: 92px; 
+    height: 141px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FD8F14;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reg{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+	width: 39px;
+	height: 74px;
+	background-color:#DCDCDC;
+	 text-align: center; 
+  display: flex;      
+  justify-content: center; 
+  align-items: center;
+}
+
+.zapis input,
+.zapis textarea,
+.ZabronirovatStol {
+    max-width: 100%;
+}
+
+@media (max-width: 1355px) {
+	.Bron { margin-left: 20px; } 
+	.zapis { max-width: 600px; } 
+	#Commentariy, .ZabronirovatStol 
+		{ width: 100%; max-width: 433px; }
+
+	 #ClientsName,
+    #StolNumber,
+    #TimeNach,
+    #Commentariy,
+    .ZabronirovatStol {
+        margin-left: 80px;
+    }
+
+
+    #check {
+        margin-left: 0;
+	
+}
+
+@media (max-width: 1300px) {
+	#ClientsName, #StolNumber, #TimeNach, #Commentariy, 
+	.ZabronirovatStol { 	margin-left: 56px;
+	margin-right: 20px;
+	margin-bottom: 20px;}
+
+	.checkbox-container {
+  margin-top: 1px; 
+  
+}
+    .main-hall {
+        width: 480px;
+    }
+
+    .osnov {
+        width: 480px;
+        height: 430px;
+    }
+
+    .zapis {
+        max-width: 560px;
+		 margin-top: 56px;
+    }
+
+}
+
+@media (max-width: 1240px) {
+
+    main {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .Bron {
+        margin-left: 0;
+    }
+
+    .zapis {
+        max-width: 540px;
+		margin-left: 30px;
+    }
+
+    .main-hall {
+        width: 440px;
+    }
+
+    .osnov {
+        width: 440px;
+        height: 400px;
+    }
+
+	.bar {
+        width: 150px;
+        height: 95px;
+    }
+
+    .scene {
+        width: 330px;
+        height: 95px;
+    }
+
+    .krug {
+        width: 45px;
+        height: 45px;
+    }
+
+    .oval {
+        width: 150px;
+        height: 45px;
+    }
+
+
+}
+
+@media (max-width: 1160px) {
+
+    #ClientsName,
+    #PhoneNumber,
+    #StolNumber,
+    #Date,
+    #TimeNach,
+    #TimeCon {
+        width: 180px;
+        height: 40px;
+    }
+    
+    .Bron{margin-left: 40px;}
+
+    #Commentariy,
+    .ZabronirovatStol {
+        width: 380px;
+    }
+
+	.zapis {
+		margin-left: 30px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+   .Bron {
+        width: 100%;
+        margin-left: 0;
+		margin-bottom:0px;
+	   margin-top: 0px;
+    }
+	#Name1{
+		margin-top: 20px;
+		margin-bottom:0px;
+	}
+
+	.status-date {
+    margin-top:0px;
+}
+
+    .Stol {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+	 .main-hall {
+        width: 400px;
+    }
+
+    .osnov {
+        width: 400px;
+        height: 360px;
+    }
+
+    .bar {
+        width: 130px;
+        height: 85px;
+    }
+
+    .scene {
+        width: 280px;
+        height: 85px;
+    }
+
+    .krug {
+        width: 42px;
+        height: 42px;
+    }
+
+    .oval {
+        width: 140px;
+        height: 42px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .zapis {
+        padding: 25px 20px;
+    }
+
+    .main-hall {
+        width: 420px;
+    }
+
+    .osnov {
+        width: 420px;
+        height: 380px;
+        gap: 6px;
+    }
+
+    .bar {
+        width: 140px;
+        height: 90px;
+    }
+
+    .scene {
+        width: 300px;
+        height: 90px;
+    }
+
+	 #ClientsName,
+    #StolNumber,
+    #TimeNach,
+    #Commentariy,
+    .ZabronirovatStol {
+        margin-left: 40px;
+    }
+
+    #check {
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+	#ClientsName, #StolNumber, #TimeNach, #Commentariy, 
+	.ZabronirovatStol { 	margin-left: 35px;
+	margin-right: 14px;
+	margin-bottom: 10px;
+	}
+
+	.checkbox-container {
+        flex-direction: ;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #check {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    .Bron {
+        width: 100%;
+    }
+
+    .zapis {
+        width: 95%;
+        border-width: 3px;
+        padding: 25px 20px;
+        align-items: center;
+    }
+
+    .zapis input,
+    .zapis textarea,
+    .ZabronirovatStol {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 18px 0;
+    }
+
+    #Commentariy {
+        height: 90px;
+    }
+    
+    .Stol {margin-bottom: 20px;}
+
+}
+
+	@media (max-width: 600px) {
+
+    main {
+        padding: 0 15px;
+    }
+
+    .Bron {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .zapis {
+        width: 100%;
+        max-width: 100%;
+        margin: 30px auto 0 auto;
+        padding: 20px 15px;
+        border-width: 3px;
+    }
+
+    .zapis input,
+    .zapis textarea,
+    .ZabronirovatStol {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    #Commentariy {
+        height: 90px;
+    }
+
+    .ZabronirovatStol {
+        width: 100%;
+    }
+
+    .checkbox-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #check {
+        margin-left: 0;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+	#ClientsName, #StolNumber, #TimeNach, #Commentariy, 
+	.ZabronirovatStol { 	margin-left: 30px;
+	margin-right: 12px;
+	margin-bottom: 8px;
+	}
+
+	.zapis {
+        align-items: stretch;
+		text-align:center;
+		height:auto;
+    }
+
+    #ClientsName,
+    #PhoneNumber,
+    #StolNumber,
+    #Date,
+    #TimeNach,
+    #TimeCon,
+    #Commentariy,
+    .ZabronirovatStol {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+		margin-bottom: 8px;
+    }
+
+	.ZabronirovatStol {
+		width: 91%;
+	}
+	
+
+    .Stol {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .main-hall {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .osnov {
+        width: 340px;
+        height: 300px;
+        gap: 5px;
+    }
+
+    .bar {
+        width: 110px;
+        height: 70px;
+    }
+
+    .scene {
+        width: 240px;
+        height: 70px;
+    }
+
+    .krug {
+        width: 38px;
+        height: 38px;
+    }
+
+    .oval {
+        width: 120px;
+        height: 40px;
+    }
+
+  
+    .small-hall {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .mal {
+        width: 100px;
+        height: 130px;
+        border-width: 3px;
+    }
+
+	.reg {
+        width: 32px;
+        height: 65px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .osnov {
+        width: 255px;
+        height: 250px;
+        gap: 4px;
+    }
+
+	.ZabronirovatStol {
+        height: 48px;
+        font-size: 14px;
+    }
+
+	 #Name {
+        font-size: 22px;
+    }
+
+	 #Name4 , #Name1 {
+        font-size: 14.5px;
+    }
+    
+    #Name2 {
+    font-size: 14px;
+}
+
+#Name3 {
+    font-size: 14px;
+}
+
+	.zapis input,
+    .zapis textarea {
+        font-size: 14px;
+    }
+
+    .bar {
+        width: 85px;
+        height: 55px;
+    }
+
+    .scene {
+        width: 195px;
+        height: 55px;
+    }
+
+    .krug {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .oval {
+        width: 95px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .zapis {
+         padding: 15px 10px;
+    }
+
+}
+
